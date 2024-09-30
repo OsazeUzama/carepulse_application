@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex h-screen max-h-screen">
       {/* TODO: OTP Verification | PasskeyModal */}
 
-      <section className="remove-scrollbar container my-auto">
+      <section className="remove-scrollbar container">
         <div className="sub-container max-w-[496px]">
           <Image 
             src="/assets/icons/logo-full.svg"
@@ -21,9 +21,9 @@ export default function Home() {
           
           />
 
-          <div className="text-14-regular mt-20 flex justify-between">
+          <div className="text-14-regular mt-20 flex justify-between py-12">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 CarePulse
+              ©2024 CarePulse
             </p>
             <Link href='/?admin=true' className="text-green-500">
               Admin

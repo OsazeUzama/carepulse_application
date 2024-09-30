@@ -51,7 +51,7 @@ const PatientForm = () => {
       router.push(`/patients/${user.$id}/register`);      
     }     
     } catch (error) {
-      console.error(error);    
+      console.log(error);    
     }   
     setIsLoading(false);
   };
@@ -68,8 +68,8 @@ const PatientForm = () => {
           fieldType={FormFieldType.INPUT}
           control={form.control}
           name='name'
-          label='Full name'
-          placeholder='John Doe'
+          label='Full Name'
+          placeholder='ex: John Doe'
           iconSrc='/assets/icons/user.svg'
           iconAlt='user'
         />
@@ -78,8 +78,8 @@ const PatientForm = () => {
           fieldType={FormFieldType.INPUT}
           control={form.control}
           name='email'
-          label='Email address'
-          placeholder='johndoe@gmail.com'
+          label='Email Address'
+          placeholder='ex: johndoe@gmail.com'
           iconSrc='/assets/icons/email.svg'
           iconAlt='email'
         />
@@ -88,7 +88,7 @@ const PatientForm = () => {
           fieldType={FormFieldType.PHONE_INPUT}
           control={form.control}
           name='phone'
-          label='Phone number'
+          label='Phone Number'
           placeholder='+234 801 234 5678'
         />
        
