@@ -11,15 +11,13 @@ export default function Home() {
         <div className="sub-container max-w-[496px]">
           <Image 
             src="/assets/icons/logo-full.svg"
-            alt="patient"
+            alt="logo"
             width={1000}
             height={1000}     
             className="mb-12 h-10 w-fit"    
           />
 
-          <PatientForm 
-          
-          />
+          <PatientForm />
 
           <div className="text-14-regular mt-20 flex justify-between py-12">
             <p className="justify-items-end text-dark-600 xl:text-left">
